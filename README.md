@@ -12,15 +12,17 @@ Tutorial for Dockerizing a simple flask app
       ├── app.py
       └── requirements.txt
       ```
-3. Build the image with `docker build -t flask-docker-app .`
+4. `git clone https://github.com/aleti-pavan/flask-docker-app.git`
+5. `cd flask-docker-app/``
+6. Build the image with `docker build -t flask-docker-app .`
 
     Above command builds the docker app and can be checked using `docker images` command
 
-4. Run the container with created image using `docker run -d -p 5000:5000 flask-docker-app`
+7. Run the container with created image using `docker run -d -p 5000:5000 flask-docker-app`
 
-5. Check the running container with `docker ps`
+8. Check the running container with `docker ps`
 
-6. Test with `curl http://localhost:5000` or pur the url into the browser
+9. Test with `curl http://localhost:5000` or pur the url into the browser
 
   ```
   curl http://localhost:5000
