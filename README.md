@@ -33,7 +33,7 @@ Tutorial for Dockerizing a simple flask app
   ```
 
 
-# Let's push it to dockerhub (You should have Dockerhub account created)
+## Let's push it to dockerhub (You should have Dockerhub account created)
 
 1. `docker login` (Enter Username/Password)
 
@@ -42,7 +42,7 @@ Tutorial for Dockerizing a simple flask app
 3. Push it with `docker push aletipavan/flask_app`
 
 
-# Let's prune the images/containers
+## Let's prune the images/containers
 
 1. `docker kill <containerID>` (kill the running container)
 
