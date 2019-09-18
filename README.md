@@ -42,7 +42,7 @@ Tutorial for Dockerizing a simple flask app
 3. Push it with `docker push aletipavan/flask_app`
 
 
-## Let's prune the images/containers
+## Prune the images/containers and Create container from dockerhub image
 
 1. `docker kill <containerID>` (kill the running container)
 
