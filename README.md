@@ -31,7 +31,7 @@ Tutorial for Dockerizing a simple flask app
   ```
 
 
-# Let's push it to dockerhub
+# Let's push it to dockerhub (You should have Dockerhub account created)
 
 1. `docker login` (Enter Username/Password)
 
