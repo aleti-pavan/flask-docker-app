@@ -47,3 +47,9 @@ Tutorial for Dockerizing a simple flask app
 2. `docker system prune -a`   say `y` (clears all images and containers)
 
 3. Pull the image from dockerhub and Run `docker run -d -p 5000:5000 aletipavan/flask_app`
+
+4. ```curl http://localhost:5000
+    {
+     "This is Flask App": "app"
+    }
+  ```
